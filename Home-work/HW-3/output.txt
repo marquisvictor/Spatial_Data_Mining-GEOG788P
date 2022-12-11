@@ -1,0 +1,168 @@
+                                 _____________________________
+
+                                         SaTScan v10.1
+                                 _____________________________
+
+
+Program run on: Wed Nov  9 14:49:19 2022
+
+Purely Spatial analysis
+scanning for clusters with high rates
+using the Continuous Poisson model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Number of locations................: 800
+Total number of cases..............: 800
+Total Area.........................: 10000
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 593, 77
+  Coordinates / radius..: (89.0476,80.0921) / 0.046
+  Number of cases.......: 2
+  Expected cases........: 0.00053
+  Observed / expected...: 3793.52
+  Log likelihood ratio..: 14.485128
+  P-value...............: 0.202
+
+2.Location IDs included.: 153, 752
+  Coordinates / radius..: (66.6339,32.4855) / 0.057
+  Number of cases.......: 2
+  Expected cases........: 0.00081
+  Observed / expected...: 2483.79
+  Log likelihood ratio..: 13.638386
+  P-value...............: 0.279
+
+3.Location IDs included.: 520, 65
+  Coordinates / radius..: (10.0222,47.608) / 0.16
+  Number of cases.......: 2
+  Expected cases........: 0.0064
+  Observed / expected...: 313.95
+  Log likelihood ratio..: 9.507338
+  P-value...............: 0.992
+
+4.Location IDs included.: 132, 362
+  Coordinates / radius..: (43.1651,71.667) / 0.17
+  Number of cases.......: 2
+  Expected cases........: 0.0076
+  Observed / expected...: 263.35
+  Log likelihood ratio..: 9.157010
+  P-value...............: 0.996
+
+5.Location IDs included.: 114, 312
+  Coordinates / radius..: (64.8991,78.4423) / 0.18
+  Number of cases.......: 2
+  Expected cases........: 0.0081
+  Observed / expected...: 245.53
+  Log likelihood ratio..: 9.017473
+  P-value...............: 0.996
+
+6.Location IDs included.: 735, 773, 292, 606, 111, 574
+  Coordinates / radius..: (65.369,40.1791) / 1.53
+  Number of cases.......: 6
+  Expected cases........: 0.58
+  Observed / expected...: 10.26
+  Log likelihood ratio..: 8.573780
+  P-value...............: 0.996
+
+7.Location IDs included.: 365, 740, 431
+  Coordinates / radius..: (76.9114,18.7713) / 0.53
+  Number of cases.......: 3
+  Expected cases........: 0.071
+  Observed / expected...: 42.06
+  Log likelihood ratio..: 8.293696
+  P-value...............: 0.996
+
+8.Location IDs included.: 176, 731, 436
+  Coordinates / radius..: (12.0612,14.6515) / 0.54
+  Number of cases.......: 3
+  Expected cases........: 0.074
+  Observed / expected...: 40.37
+  Log likelihood ratio..: 8.173684
+  P-value...............: 0.996
+
+NOTE: The sequential Monte Carlo procedure was used to terminate the calculations after 247
+replications.
+
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Coordinates File : C:\Users\Lenovo\Documents\PhD Applied Spatial Data Science and UI\Spatial Data Mining\Home-work\HW-3\random_new_11_09.csv
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis    : Purely Spatial
+  Probability Model   : Continuous Poisson
+  Scan for Areas with : High Rates
+
+Output
+------
+  Main Results File : C:\Users\Lenovo\Documents\PhD Applied Spatial Data Science and UI\Spatial Data Mining\Home-work\HW-3\output.txt
+
+Polygons
+--------
+  Polygon 1 : 1y + 0x + 0 >= 0, 1y + 0x - 100 <= 0, 0y + 1x + 0 >= 0, 0y + 1x - 100 <= 0
+
+Data Checking
+-------------
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Line List
+---------
+  Case file includes line list data : No
+  Case file includes header row     : No
+  Events Cache File                 : 
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size : 50 percent of population at risk
+  Window Shape                 : Circular
+
+Cluster Restrictions
+--------------------
+  Minimum Cases in Cluster for High Rates : 2
+  Restrict High Rate Clusters             : No
+
+Inference
+---------
+  P-Value Reporting      : Default Combination
+  Number of Replications : 999
+
+Cluster Drilldown
+-----------------
+  Standard Drilldown on Detected Clusters : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Report Gini Optimized Cluster Collection  : No
+  Restrict Reporting to Smaller Clusters    : No
+
+Other Output
+------------
+  Cluster Significant by P-value Cutoff : No
+  Report Critical Values                : No
+  Report Monte Carlo Rank               : No
+
+Alerts
+------
+  Send Summary of Analysis Results by Email : No
+
+Run Options
+-----------
+  Processor Usage   : All Available Processors
+  Suppress Warnings : No
+  Logging Analysis  : No
+_______________________________________________________________________________________________
+
+Program completed  : Wed Nov  9 14:49:29 2022
+Total Running Time : 10 seconds
+Processor Usage    : 4 processors
